@@ -1,0 +1,43 @@
+.avatar {
+    cursor: pointer;
+    position: absolute;
+    bottom: 20%;
+    left: calc(50% - 100px);
+    
+}
+
+.avatar__img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid rgba(234, 15, 150, 0.9);
+    box-shadow: inset 10px 10px 10px rgba(15, 219, 234, 0.9);
+    -webkit-animation: balloon1 6s ease-in-out infinite;
+    -moz-animation: balloon1 6s ease-in-out infinite;
+    -o-animation: balloon1 6s ease-in-out infinite;
+    animation: balloon1 6s ease-in-out infinite;
+}
+
+.avatar__title {
+    cursor: pointer;
+    margin-top: -100px;
+    -webkit-animation: balloon1 4s ease-in-out infinite;
+    -moz-animation: balloon1 4s ease-in-out infinite;
+    -o-animation: balloon1 4s ease-in-out infinite;
+    animation: balloon1 4s ease-in-out infinite;
+}
+.balloon > div:before {
+    color: rgba(18, 15, 97, 0.9);
+    position: absolute;
+    bottom: -11px;
+    left: 52px;
+    content: "▲";
+    font-size: 1em;
+}
+span {
+    font-size: 4.8em;
+    color: white;
+    position: relative;
+    top: 30px;
+    left: 50%;
+    margin-left: -27px;}

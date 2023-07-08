@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iu em</title>
+    <link rel="stylesheet" href="canvas.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <canvas id=c></canvas>
+</div>
+<div class="avatar">
+   
+    <img src="mysweetheart.jpg" alt="" class="avatar__img" onclick="showMessage()" />
+    
+    
+</div>
+
+
+<audio id="player" autoplay loop>
+    <source src="sinhnhat.mp3" type="audio/mp3">
+</audio>
+</div>
+<script>
+if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+}
+function showMessage() {
+
+    swal({
+        title: "Đọc đi nè", 
+        text: "Today is your birthday. I don't know if tomorrow when I go away to college will still be like this, but now I love you so much, thank you for changing for me. Pray all the best for you, happy birthday darling.", // Nội dung lời nhắn
+        button: {
+            text: "❤️️",
+        },
+    });
+}
+</script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+<script src="canvas.js"></script>
+</html>
